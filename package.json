@@ -1,0 +1,18 @@
+{
+  "name": "TermonacionalApp",
+  "version": "1.0.0",
+  "main": "./js/conscomer.js",
+  "scripts": {
+    "start": "node ./js/conscomer.js",
+    "dev": "nodemon ./js/conscomer.js"
+  },
+  "type": "module",
+  "dependencies": {
+    "cheerio": "^1.0.0",
+    "fs": "^0.0.1-security",
+    "puppeteer": "^24.2.0",
+    "request": "^2.88.2",
+    "util": "^0.12.5",
+    "wpapi": "^1.2.2"
+  }
+}
